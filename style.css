@@ -1,0 +1,80 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+header nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Seção de Destaques */
+#home {
+    text-align: center;
+    padding: 50px 0;
+}
+
+#destaques h2 {
+    font-size: 28px;
+    color: #333;
+}
+
+.livros-destaque {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.livro {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+}
+
+.livro img {
+    width: 100%;
+    height: auto;
+}
+
+.livro h3 {
+    font-size: 18px;
+    color: #333;
+}
+
+.livro p {
+    font-size: 16px;
+    color: #777;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
